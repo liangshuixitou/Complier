@@ -1,0 +1,153 @@
+
+START AST
+-> NBlock
+---> NFunctionDeclaration
+-----> NIdentifier: name = int
+-----> NIdentifier: name = main
+-----> NBlock
+-------> NVariableDeclaration
+---------> NIdentifier: name = int
+---------> NIdentifier: name = i
+-------> NVariableDeclaration
+---------> NIdentifier: name = int
+---------> NIdentifier: name = j
+---------> NInteger: value = 0
+-------> NVariableDeclaration
+---------> NIdentifier: name = int
+---------> NIdentifier: name = k
+---------> NInteger: value = 0
+-------> NExpressionStatement
+---------> NAssignment
+-----------> NIdentifier: name = i
+-----------> NInteger: value = 5
+-------> NExpressionStatement
+---------> NAssignment
+-----------> NIdentifier: name = j
+-----------> NBinaryOperator: op = 278
+-------------> NIdentifier: name = i
+-------------> NIdentifier: name = j
+-------> NExpressionStatement
+---------> NAssignment
+-----------> NIdentifier: name = k
+-----------> NBinaryOperator: op = 278
+-------------> NBinaryOperator: op = 278
+---------------> NIdentifier: name = i
+---------------> NIdentifier: name = j
+-------------> NIdentifier: name = k
+-------> NExpressionStatement
+---------> NMethodCall: name = 
+-----------> NIdentifier: name = output
+-----------> NIdentifier: name = i
+-------> NExpressionStatement
+---------> NMethodCall: name = 
+-----------> NIdentifier: name = output
+-----------> NIdentifier: name = j
+-------> NExpressionStatement
+---------> NMethodCall: name = 
+-----------> NIdentifier: name = output
+-----------> NIdentifier: name = k
+-------> NIfStatement
+---------> NBinaryOperator: op = 262
+-----------> NIdentifier: name = i
+-----------> NIdentifier: name = i
+---------> NBlock
+-----------> NVariableDeclaration
+-------------> NIdentifier: name = int
+-------------> NIdentifier: name = i
+-----------> NVariableDeclaration
+-------------> NIdentifier: name = int
+-------------> NIdentifier: name = j
+-----------> NVariableDeclaration
+-------------> NIdentifier: name = int
+-------------> NIdentifier: name = k
+-----------> NExpressionStatement
+-------------> NAssignment
+---------------> NIdentifier: name = i
+---------------> NInteger: value = 10
+-----------> NExpressionStatement
+-------------> NAssignment
+---------------> NIdentifier: name = j
+---------------> NBinaryOperator: op = 278
+-----------------> NIdentifier: name = i
+-----------------> NIdentifier: name = j
+-----------> NExpressionStatement
+-------------> NAssignment
+---------------> NIdentifier: name = k
+---------------> NBinaryOperator: op = 278
+-----------------> NBinaryOperator: op = 278
+-------------------> NIdentifier: name = i
+-------------------> NIdentifier: name = j
+-----------------> NIdentifier: name = k
+-----------> NExpressionStatement
+-------------> NMethodCall: name = 
+---------------> NIdentifier: name = output
+---------------> NIdentifier: name = i
+-----------> NExpressionStatement
+-------------> NMethodCall: name = 
+---------------> NIdentifier: name = output
+---------------> NIdentifier: name = j
+-----------> NExpressionStatement
+-------------> NMethodCall: name = 
+---------------> NIdentifier: name = output
+---------------> NIdentifier: name = k
+-----------> NIfStatement
+-------------> NBinaryOperator: op = 264
+---------------> NIdentifier: name = j
+---------------> NIdentifier: name = k
+-------------> NBlock
+---------------> NVariableDeclaration
+-----------------> NIdentifier: name = int
+-----------------> NIdentifier: name = j
+---------------> NVariableDeclaration
+-----------------> NIdentifier: name = int
+-----------------> NIdentifier: name = k
+---------------> NExpressionStatement
+-----------------> NAssignment
+-------------------> NIdentifier: name = j
+-------------------> NBinaryOperator: op = 280
+---------------------> NIdentifier: name = i
+---------------------> NInteger: value = 5
+---------------> NExpressionStatement
+-----------------> NAssignment
+-------------------> NIdentifier: name = k
+-------------------> NBinaryOperator: op = 280
+---------------------> NIdentifier: name = i
+---------------------> NInteger: value = 10
+---------------> NExpressionStatement
+-----------------> NMethodCall: name = 
+-------------------> NIdentifier: name = output
+-------------------> NIdentifier: name = i
+---------------> NExpressionStatement
+-----------------> NMethodCall: name = 
+-------------------> NIdentifier: name = output
+-------------------> NIdentifier: name = j
+---------------> NExpressionStatement
+-----------------> NMethodCall: name = 
+-------------------> NIdentifier: name = output
+-------------------> NIdentifier: name = k
+-----------> NExpressionStatement
+-------------> NMethodCall: name = 
+---------------> NIdentifier: name = output
+---------------> NIdentifier: name = i
+-----------> NExpressionStatement
+-------------> NMethodCall: name = 
+---------------> NIdentifier: name = output
+---------------> NIdentifier: name = j
+-----------> NExpressionStatement
+-------------> NMethodCall: name = 
+---------------> NIdentifier: name = output
+---------------> NIdentifier: name = k
+-------> NExpressionStatement
+---------> NMethodCall: name = 
+-----------> NIdentifier: name = output
+-----------> NIdentifier: name = i
+-------> NExpressionStatement
+---------> NMethodCall: name = 
+-----------> NIdentifier: name = output
+-----------> NIdentifier: name = j
+-------> NExpressionStatement
+---------> NMethodCall: name = 
+-----------> NIdentifier: name = output
+-----------> NIdentifier: name = k
+-------> NReturnStatement
+---------> NInteger: value = 0
